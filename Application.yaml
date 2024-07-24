@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: project-k8s
-        image: 381492204839.dkr.ecr.us-east-2.amazonaws.com/super-project:latest
+        image: public.ecr.aws/f3g9m7r9/jenkinsproject
         ports:
         - containerPort: 8080  
 
